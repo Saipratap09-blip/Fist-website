@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .email-content-wrapper table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  .email-content-wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Custom scrollbars for code and email preview */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(79, 70, 229, 0.4);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(79, 70, 229, 0.7);
+}

@@ -1,0 +1,7 @@
+{
+  "name": "CampaignCraft AI - Email Marketing Campaign Generator",
+  "description": "Generate complete, high-converting email marketing campaigns with multi-variant subject lines, responsive HTML/Plaintext copy, AI visuals, and GitHub-ready deployment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
